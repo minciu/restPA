@@ -18,7 +18,7 @@ import java.util.Map;
 
 @RestController
 public class PlayerCallService {
-    private final String URI = "http://localhost:8080/player";
+    private final String URI = "http://localhost:8080/players";
 
     @GetMapping("/call_players")
     public List<PlayerTrans> getPlayers() {
