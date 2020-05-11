@@ -19,7 +19,7 @@ import java.util.*;
 
 @RestController
 public class GameCallService {
-    private final String URI = "http://localhost:8080/game";
+    private final String URI = "http://localhost:8080/games";
 
     @GetMapping("/call_games")
     public List<GameTrans> getPlayers() {
